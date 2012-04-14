@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="528.66089"
+   height="188.82095"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="/home/sergio/drawing.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title3004">JZoopraxiscope Logo</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6475588"
+     inkscape:cx="193.03483"
+     inkscape:cy="89.865444"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     fit-margin-top="50"
+     fit-margin-left="50"
+     fit-margin-right="50"
+     fit-margin-bottom="50" />
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4619">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4621" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4623" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4609">
+      <stop
+         style="stop-color:#333333;stop-opacity:1;"
+         offset="0"
+         id="stop4611" />
+      <stop
+         style="stop-color:#333333;stop-opacity:0;"
+         offset="1"
+         id="stop4613" />
+    </linearGradient>
+    <filter
+       id="filter3066"
+       inkscape:label="Clean edges"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Removes or decreases glows and jaggeries around objects edges after applying some filters"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3068"
+         result="result6"
+         stdDeviation="0.4" />
+      <feComposite
+         id="feComposite3070"
+         in2="result6"
+         operator="in"
+         in="SourceGraphic"
+         result="result7" />
+      <feComposite
+         id="feComposite3072"
+         in2="result7"
+         operator="in"
+         result="result8"
+         in="result7" />
+    </filter>
+    <filter
+       id="filter3074"
+       inkscape:label="Clean edges"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Removes or decreases glows and jaggeries around objects edges after applying some filters"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3076"
+         result="result6"
+         stdDeviation="0.4" />
+      <feComposite
+         id="feComposite3078"
+         in2="result6"
+         operator="in"
+         in="SourceGraphic"
+         result="result7" />
+      <feComposite
+         id="feComposite3080"
+         in2="result7"
+         operator="in"
+         result="result8"
+         in="result7" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4619"
+       id="linearGradient4615"
+       x1="492.78583"
+       y1="406.83707"
+       x2="348.71951"
+       y2="406.83707"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4619"
+       id="linearGradient4617"
+       x1="502.1937"
+       y1="406.5336"
+       x2="348.71951"
+       y2="406.83707"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>JZoopraxiscope Logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>serge@cobalys.com</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-62.295122,-319.95219)">
+    <path
+       style="fill:url(#linearGradient4615);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3074)"
+       d="m 486.25927,381.08326 5.31936,-2.63928 3.14158,0.22618 -0.64451,-1.54559 11.39072,-3.75386 7.64735,0.73783 2.82186,-4.15635 2.34502,2.56281 2.4718,0.61309 3.75906,4.34194 8.12714,13.2126 5.11435,6.21205 3.203,3.76786 -2.46385,1.44917 0.24639,3.47805 -3.69577,-0.57968 0,4.05771 -2.95662,-1.15935 -1.97108,-5.21705 -11.33369,-5.50688 -4.9277,0.86949 -7.47831,0.60854 -3.39376,5.80607 -2.33667,6.12398 -2.37642,4.2634 -2.38835,7.31044 -1.93928,1.44918 -6.06424,5.09102 -6.8789,2.50413 -4.71886,2.05615 -15.79754,10.78167 -3.37209,4.10568 -5.5542,1.15932 -10.91891,4.26207 -3.3103,1.15935 -8.75061,4.03815 -4.09316,-1.65264 2.39231,-5.88309 8.03929,0.39575 3.32618,-3.05999 c 4.29186,-2.43016 8.64087,-3.40658 12.11191,-4.85501 l 4.26339,-2.52126 c -0.85211,-0.42527 -2.61014,-1.25441 -3.94718,-1.79208 -1.70039,-0.68378 -4.87985,-0.93176 -4.71918,-1.47261 l -2.27763,-4.59477 6.73606,-0.60921 2.32339,3.61243 3.87792,1.51881 -0.83894,-5.4364 0.42123,-5.86221 -5.74,1.04114 -17.66802,-0.0564 -18.97882,-1.18138 -21.45494,0.57851 0.76302,-35.65549 57.9199,-0.65377 22.26429,-3.02656 6.68098,-1.87953 4.56534,-2.71281"
+       id="path3016"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccscccccccccccccccc"
+       inkscape:export-filename="/home/sergio/flowRoot2985.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient4617);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3066)"
+       d="m 483.68709,430.3713 -2.3361,7.1366 -1.34126,4.09742 -3.95464,9.56946 -2.7897,3.53411 -13.55955,-9.46463 0.82385,-1.06379 2.05728,-1.40805 8.33947,4.30816 -2.22381,-8.27295 7.7189,-5.28357"
+       id="path3018"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/sergio/flowRoot2985.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(47.580278,118.25368)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="614.17273"
+           height="123.23861"
+           x="68.690376"
+           y="272.52441" /></flowRegion><flowPara
+         id="flowPara2991"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Fontdiner Swanky;-inkscape-font-specification:Fontdiner Swanky">JZOOPRAXISCOPE</flowPara></flowRoot>  </g>
+</svg>
