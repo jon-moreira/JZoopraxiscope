@@ -16,6 +16,7 @@ Use
 ---
 
 1. Download JZoopraxiscope and link the jquery.jzoopraxiscope.js file in your page:
+
 .. code:: html
 		<script src="jquery.jzoopraxiscope.js"></script>
 
@@ -26,9 +27,11 @@ Use
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script>
 		
 3. Prepare the static sequense. Every frame must have the same width and be attached to his previous frame in a horizontal image. Refer to the included file 'media/jzoo.jpg'
-+------------+------------+------------+------------+
+
+----------+------------+------------+------------+
 |  Frame 1   |  Frame 2   |  Frame 3   |  Frame 4   |
 +------------+------------+------------+------------+
+
 *Horizontal image*
 
 
@@ -53,6 +56,7 @@ image
 
 
 5. Initialize a div with JZoo (#animation).
+
 .. code:: html
 		<div id="animation" style="border: 1px solid #999; margin: auto;"></div>
 
@@ -62,6 +66,7 @@ image
 				
 
 6. Control JZoo.
+
 .. code:: javascript
 		//Play the animation
 		$('#animation').jzoopraxiscope('play');
