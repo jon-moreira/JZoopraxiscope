@@ -41,10 +41,10 @@ Use
 				'height' : 306,
 				'image' : 'images/jzoo.jpg'}
 
-**widthItem** Width of every frame.
-**widthImage** Width of the entire image.
-**height** Height of the image.
-**image** Location of the image. Use relative or absolute path, relative paths are related to the html document where the plugin is installed.
+	**widthItem** Width of every frame.   
+	**widthImage** Width of the entire image.   
+	**height** Height of the image.   
+	**image** Location of the image. Use relative or absolute path, relative paths are related to the html document where the plugin is installed.   
 
 
 5. Initialize a div with JZoo (#animation)
