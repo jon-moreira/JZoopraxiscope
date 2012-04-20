@@ -30,7 +30,7 @@
 						'background-repeat' : 'repeat',
 						'background-position' : '0 0',
 						'background-attachment' : 'scroll',
-						'box-shadow' : 'inset 0 0 40px #000000',
+						'box-shadow' : 'inset 0 0 40px #000000'
 					});
 					$this.data('jzoopraxiscope', {
 						playing : false,
@@ -52,13 +52,13 @@
 				if(!data.playing) {
 					data.playing = true;
 					$this.animate({
-						backgroundPosition : data.fadePosition,
+						backgroundPosition : data.fadePosition
 					}, 7000, 'easeInQuint', function() {
 						data.timer = setInterval(animationLoop, 50);
 					});
 					animationLoop = function() {
 						$this.animate({
-							backgroundPosition : data.position,
+							backgroundPosition : data.position
 						}, 1, 'linear', function() {
 							data.position = data.position - data.widthItem;
 							if(data.position < -data.widthImage) {
@@ -77,11 +77,11 @@
 					clearInterval(data.timer);
 					$this.stop(true);
 					$this.animate({
-						backgroundPosition : data.fadePosition,
+						backgroundPosition : data.fadePosition
 					}, 7000, 'easeOutQuint', function() {
 						data.playing = false;
 						$this.css({
-							'background-position' : '0px',
+							'background-position' : '0px'
 						});
 					});
 				}
