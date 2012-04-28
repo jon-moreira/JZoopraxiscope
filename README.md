@@ -18,6 +18,7 @@ Browser Compatibility
 * Mozilla Firefox 11.0
 * Internet Explorer 8
 * Safari 5
+* Opera 11.62
 
 
 Use
