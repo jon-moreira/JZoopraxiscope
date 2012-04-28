@@ -12,6 +12,14 @@ Requirements
 * An image representing the sequence to be animated
 
 
+Browser Compatibility
+---------------------
+* Chrome  18.0.1025.162
+* Mozilla Firefox 11.0
+* Internet Explorer 8
+* Safari 5
+
+
 Use
 ---
 
