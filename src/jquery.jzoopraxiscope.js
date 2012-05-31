@@ -34,7 +34,7 @@
 					});
 					$this.data('jzoopraxiscope', {
 						playing : false,
-						fadePosition : -(widthImage * 5),
+						fadePosition : -(widthImage * 4),
 						widthItem : widthItem,
 						widthImage : widthImage,
 						position : 0

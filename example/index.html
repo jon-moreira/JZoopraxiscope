@@ -2,11 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>index</title>
+		<title>JZoopraxiscope - jQuery plugin for animations from static images.</title>
 		<meta name="description" content="" />
 		<meta name="author" content="" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<link rel="stylesheet" href="style.css" type="text/css" />
@@ -15,46 +14,52 @@
 		<script src="../src/jquery.jzoopraxiscope.js"></script>
 		<script type="text/javascript">
 			var optionsAnimation = {
-				'widthItem' : 380,
-				'widthImage' : 4560,
-				'height' : 306,
+				'widthItem' : 627,
+				'widthImage' : 6897,
+				'height' : 390,
 				'image' : 'images/jzoo.jpg'
 			}
 			$(document).ready(function() {
 				$('#animation').jzoopraxiscope(optionsAnimation);
 				$('#play').click(function() {
-					$('#animation').jzoopraxiscope('play')
+					$('#animation').jzoopraxiscope('play');
+					this.src = 'images/playing.png';
 				});
 				$('#stop').click(function() {
-					$('#animation').jzoopraxiscope('stop')
+					$('#play').attr("src", 'images/play.png');
+					$('#animation').jzoopraxiscope('stop');
 				});
 			});
 
 		</script>
 	</head>
 	<body style="">
-		<div>
-			<header>
-				<img src="images/logo.png" alt="JZoopraxiscope"/>
-			</header>
-			<div id="content">
-				<div id="animation-container">
-					<div id="animation" style="border: 1px solid #999; margin: auto;"></div>
-					<div id="animation-controls" style="width:100px;margin: auto">
-						<span id="stop">Stop</span>
-						<span id="play">Play</span>
-					</div>
-				</div>
-				<div id="information">
-					<h1>Zoopraxiscope</h1>
-					<p>
-						The zoopraxiscope is an early device for displaying motion pictures. Created by photographic pioneer Eadweard Muybridge in 1879, it may be considered the first movie projector. The zoopraxiscope projected images from rotating glass disks in rapid succession to give the impression of motion. The stop-motion images were initially painted onto the glass, as silhouettes. A second series of discs, made in 1892–94, used outline drawings printed onto the discs photographically, then colored by hand. Some of the animated images are very complex, featuring multiple combinations of sequences of animal and human movement.
-					</p>
+		<header>
+			<a href=""><img src="images/logo.png" alt="JZoopraxiscope"/></a>
+			<!--a href="">Download</a>
+			<a href="">License</a-->
+		</header>
+		<div id="content">
+			<div id="animation-container">
+				<div id="animation" style="border: 1px solid #999; margin: auto;"></div>
+				<div id="animation-controls" style="width:100px;margin: auto">
+					<img  id="stop" src="images/stop.png" />
+					<img  id="play" src="images/play.png" />
 				</div>
 			</div>
-			<footer>
+			<p id="description">
+				JZoopraxiscope is a jQuery plugin for animations from static images inspired in Eadweard Muybridge's Zoopraxiscope.
+			</p>
+			<div style="margin: auto;width:580px;text-align: center;padding: 40px;">
+				<a href="https://github.com/downloads/cobalys/JZoopraxiscope/JZoopraxiscope_1.0.zip" class="button big">Download</a>
+				<a href="https://github.com/cobalys/JZoopraxiscope" class="button big">Fork Me</a>
+			</div>
+			
+		</div>
+		<footer>
+			<div class="footer">
 				<p>
-					Copyright&copy; 2012 <a href="cobalys.com">Cobalys</a> GPLv3.
+					Copyright&copy; 2012 <a href="http://cobalys.com">Cobalys</a><a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">GPLv3</a>. <a href="https://github.com/cobalys/JZoopraxiscope/tree/gh-pages">Fork Website</a>
 				</p>
 				<p>
 					Image jzoo.jpg belongs to the Eadweard Muybridge Collection (Public Domain).
@@ -62,7 +67,10 @@
 				<p>
 					The article is an excerpt from the Wikipedia article <a href="http://en.wikipedia.org/wiki/Zoopraxiscope">"Zoopraxiscope"</a>, which is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a>.
 				</p>
-			</footer>
-		</div>
+				<p>
+					Hosted by <a href="http://pages.github.com/">Github Pages</a>.
+				</p>
+				<a href="http://cobalys.com/" ><img id="cobalys-footer" src="images/cobalys-logo.png" /></a>
+		</footer>
 	</body>
 </html>
