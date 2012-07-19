@@ -5,7 +5,7 @@ https://github.com/cobalys/JZoopraxiscope
 
 ### Animate static image sequences with this jQuery plugin.
 
-JZoopraxiscope is a jQuery plugin for animations from static images. It is inspired in Eadweard Muybridge's Zoopraxiscope. 
+JZoopraxiscope is a jQuery plugin to make animations from static images inspired in Eadweard Muybridge's Zoopraxiscope. 
 
 
 Requirements
