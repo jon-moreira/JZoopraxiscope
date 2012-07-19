@@ -1,55 +1,176 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: arial;
 }
 body {
 	padding: 0;
 	margin: 0;
 	background-color: #F7F7F7;
+	background-image: url('images/background.jpg');
+	background-repeat: repeat-x;
+	background-position: top;
 }
 header {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 25px;
-	height: 80px;
-	background-color: #454546;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #AAAAAA;
-	box-shadow: 0 7px 22px #888888;
+	height: 70px;
+	margin-bottom: 0px;
+}
+header a {
+	color: #fff;
+	vertical-align: top;
 }
 #content {
 	width: 990px;
 	margin: auto;
-	margin-top: 60px;
+	margin-top: 0px;
 	overflow: auto;
+	color: #555;
 }
 #animation-container {
-	float: left;
-	width: 40%;
+	float: none;
+	background-color: #ECECEC;
+	background-image: -moz-linear-gradient(#F4F4F4, #ECECEC);
+	border: 1px solid #bebebe;
+	margin: 0px auto auto;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	height: 431px;
+	width: 650px;
 }
 #information {
-	float: right;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-right: 5px;
-	width: 579px;
+	float: none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 3px solid #eee;
+	font-family: arial;
+	margin: 20px auto auto;
+	width: 690px;
+	color: #555;
+}
+img#cobalys-footer{
+	margin-top: 30px; margin-right: 40px;
+}
+div.footer{
+	margin: auto;
+	width: 990px;
+	text-align: right;
+}
+#information article {
+	padding: 40px;
+	border: 1px solid #bebebe;
 }
 #information p {
 	text-align: justify;
 	margin-top: 5px;
 }
-#animation-controls span {
+#animation-controls img {
 	cursor: pointer;
 }
+#animation-controls {
+	margin: auto;
+	padding-top: 9px;
+	text-align: center;
+	width: 454px;
+}
 footer {
-	padding-top: 10px;
-	margin: 100px auto 50px;
-	border-top: 1px solid rgb(204, 204, 204);
-	width: 95%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin-top: 100px;
+	border-top: 1px solid #999;
+	width: 100%;
+	background-color: #222;
 }
 footer * {
-	color: #999999;
-	font-size: 11px;
+	color: #ccc;
+	font-size: 13px;
 	text-align: center;
 	text-decoration: none;
+	font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+h1, h2 {
+	padding-bottom: 5px;
+}
+h2 {
+	margin-top: 20px;
+}
+p#description {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 27px;
+	margin-top: 16px;
+	text-align: center;
+}
+/* ------------------------------------------
+ * CSS3 GITHUB BUTTONS (Nicolas Gallagher)
+ * Licensed under Unlicense
+ * http://github.com/necolas/css3-github-buttons
+ * --------------------------------------- */
+
+/* =============================================================================
+ Base Button
+ ========================================================================== */
+
+.button {
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.5em 1em;
+	border: 1px solid #d4d4d4;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font: 11px/normal sans-serif;
+	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #3c8dde;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+	background-image: -moz-linear-gradient(#599bdc, #3072b3);
+	background-image: -o-linear-gradient(#599bdc, #3072b3);
+	background-image: linear-gradient(#599bdc, #3072b3);
+	-moz-background-clip: padding; /* for Firefox 3.6 */
+	background-clip: padding-box;
+	border-radius: 0.2em;
+	/* IE hacks */
+	zoom: 1;
+	*
+	display: inline;
+}
+.button:hover, .button:focus, .button:active, .button.active {
+	border-color: #3072b3;
+	border-bottom-color: #2a65a0;
+	text-decoration: none;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #fff;
+	background-color: #3c8dde;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+	background-image: -moz-linear-gradient(#599bdc, #3072b3);
+	background-image: -o-linear-gradient(#599bdc, #3072b3);
+	background-image: linear-gradient(#599bdc, #3072b3);
+}
+.button:active, .button.active {
+	border-color: #2a65a0;
+	border-bottom-color: #3884cd;
+	background-color: #3072b3;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+	background-image: -moz-linear-gradient(#3072b3, #599bdc);
+	background-image: -ms-linear-gradient(#3072b3, #599bdc);
+	background-image: -o-linear-gradient(#3072b3, #599bdc);
+	background-image: linear-gradient(#3072b3, #599bdc);
+}
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+/* Big button
+ ========================================================================== */
+
+.button.big {
+	font-size: 20px;
 }

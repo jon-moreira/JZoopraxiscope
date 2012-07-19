@@ -1,6 +1,7 @@
 JZoopraxiscope
 ==============
 http://www.cobalys.com/open-source/jzoopraxiscope.html
+https://github.com/cobalys/JZoopraxiscope
 
 ### Animate static image sequences with this jQuery plugin.
 
